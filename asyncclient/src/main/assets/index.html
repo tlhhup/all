@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="application/javascript">
+        function showData(json){
+            //json="{count: 437,title: '有媒体报道我国地下水八成不能饮用'}";
+            test.shotInfo(json);
+            var data=eval("("+json+")");
+            document.getElementById("count").innerText=data.count;
+            document.getElementById("title").innerText=data.title;
+        }
+    </script>
+</head>
+<body onload="javascript:test.showData()">
+<input type="button" onclick="test.showToast();" value="点我">
+你妹啊
+<h1 id="count"></h1>
+<h2 id="title"></h2>
+</body>
+</html>

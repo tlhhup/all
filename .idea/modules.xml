@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asyncclient/asyncclient.iml" filepath="$PROJECT_DIR$/asyncclient/asyncclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contacts/contacts.iml" filepath="$PROJECT_DIR$/contacts/contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imgeload/imgeload.iml" filepath="$PROJECT_DIR$/imgeload/imgeload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music/music.iml" filepath="$PROJECT_DIR$/music/music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewbadger/viewbadger.iml" filepath="$PROJECT_DIR$/viewbadger/viewbadger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+    </modules>
+  </component>
+</project>

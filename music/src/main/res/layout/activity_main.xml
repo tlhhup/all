@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/base_bg"
+              android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/base_titlebar_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="视频"
+                      android:gravity="center"
+                      android:textSize="15sp"
+                      android:id="@+id/tab_video"
+                      android:textColor="@color/indicate_line"
+                      android:layout_height="match_parent"/>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:text="音乐"
+                      android:id="@+id/tab_audio"
+                      android:gravity="center"
+                      android:textSize="15sp"
+                      android:textColor="@color/gray_white"
+                      android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:id="@+id/indicate_line"
+            android:layout_alignParentBottom="true"
+            android:background="@color/indicate_line" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
